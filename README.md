@@ -1,5 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
 # Project README
 
 This repository contains scripts for visualizing and analyzing simulation data related to particle and cilia dynamics, as well as flow fields. Below is a brief outline of what each script does.
@@ -39,17 +37,6 @@ This repository contains scripts for visualizing and analyzing simulation data r
     - Plots streamlines of the flow field at each time step.
     - Overlays cilia positions and finite element mesh.
     - Creates a video of the streamline evolution (`ibm_c_streamlines.avi`)[^3].
-
----
-
-## **Summary Table**
-
-| Script Name | Language | Main Functionality | Output |
-| :-- | :-- | :-- | :-- |
-| h5_gen_trajectory.py | Python | Particle/cilia trajectory visualization from HDF5 | PNG/PDF images |
-| plot_image.py | Python | Streamline visualization and video from simulation data | PNG/PDF images, MP4 video |
-| plot_matlab.m | MATLAB | Streamline/cilia visualization and video | AVI video |
-
 
 ---
 
